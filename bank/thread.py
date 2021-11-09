@@ -45,7 +45,7 @@ class class_money_otp(threading.Thread):
         email.send()
 
 class class_forget_password(threading.Thread):
-        def __init__(self, s_email,r_email,token,username):
+        def __init__(self, s_email,token,username):
             self.mail = s_email
             self.token = token
             self.username = username
