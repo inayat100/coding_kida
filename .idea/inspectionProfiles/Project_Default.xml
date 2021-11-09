@@ -1,0 +1,21 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyArgumentListInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="singup.singup.views.*" />
+          <option value="singup.views.*" />
+          <option value="singup.models.userreg.objects" />
+          <option value="str.*" />
+          <option value="welcome.models.project.*" />
+          <option value="Todo.tododesk.urls.*" />
+          <option value="log.log.views.*" />
+          <option value="dj5.pizza.api.views.*" />
+          <option value="dj11.blog.otp.potp" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
